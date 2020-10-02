@@ -1,0 +1,31 @@
+.grid {
+	display: grid;
+	grid-template-columns: repeat(64, 8px);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	filter: opacity(.25);
+	z-index: 9;
+}
+
+.node {
+	height: 8px;
+	width: 8px;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	box-sizing: border-box;
+	font-size: 4px;
+	background-color: black;
+}
+
+.node:hover {
+	filter: opacity(.5);
+}
+
+.svg {
+	height: calc(64px * 8);
+	width: calc(64px * 8);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
