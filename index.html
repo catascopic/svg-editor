@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
-<html>
+<html onkeydown="shortcut(event)">
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
 <script src="script.js"></script>
@@ -8,11 +8,11 @@
 </head>
 <body>
 
-<div id="grid" class="grid">
-
+<div class="container">
+	<div id="svg"></div>
+	<div id="grid" class="grid"></div>
 </div>
-
-<div id="svg"></div>
+<div id="position"></div>
 
 </body>
 </html>

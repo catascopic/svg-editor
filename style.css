@@ -1,11 +1,12 @@
+.container {
+	position: relative;
+}
+
 .grid {
 	display: grid;
 	grid-template-columns: repeat(64, 8px);
-	position: absolute;
-	top: 0px;
-	left: 0px;
+	position: relative;
 	filter: opacity(.25);
-	z-index: 9;
 }
 
 .node {
